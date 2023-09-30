@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> grill - Bootstrap Restaurant Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Noto+Color+Emoji&family=Reem+Kufi&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Marhey:wght@300;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/special.css">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><i class="img-deer"><img src="/img/deer3.png" alt="deer-logo" ></i> گوزن</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a  id="nabar"     href="index.html" class="nav-item nav-link active">خانه</a>
+                        <a   id="nabar"   href="about.html" class="nav-item nav-link">درباره ما</a>
+                        <a   id="nabar"   href="service.html" class="nav-item nav-link"> سرویس ها</a>
+                        <a    id="nabar"  href="menu.html" class="nav-item nav-link"> منو</a>
+                        <div class="nav-item dropdown">
+                            <a id="nabar" href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> صفحه ها</a>
+                            <div class="dropdown-menu m-0">
+                                <a id="nabar" href="booking.html" class="dropdown-item"> رزرو</a>
+                                <a id="nabar" href="team.html" class="dropdown-item"> تیم ما</a>
+                                <a id="nabar" href="testimonial.html" class="dropdown-item"> رضایت شما</a>
+                            </div>
+                        </div>
+                        <a id="nabar" href="contact.html" class="nav-item nav-link"> ارتباط با ما</a>
+                    </div>
+                    <a id="nabar" href="" class="btn btn-primary py-2 px-4"> ثبت سفارش</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container my-5 py-5">
+                    <div class="row align-items-center g-5">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="display-3 text-white animated slideInLeft">   لذتی از  طعم<br>  متفاوت گوشت</h1>
+                            <p class="text-white animated slideInLeft mb-4 pb-2"> ما از اصالت آشپزی گریل ایرانی بهره‌می‌بریم تا برای شما تجربه‌ای بی‌نظیر و متفاوت ارائه دهیم. از گوشت‌های انتخابی تا ترکیبات منحصر به فردی که با آنها طبخ می‌شوند، ما در تمام مراحل آشپزی به جزئیات کوچک توجه می‌کنیم. با طعم‌ها و ادعاهایی که در "آشپزی گریل تاج" پیدا می‌کنید، مطمئناً تجربه خاصی خواهید داشت. آماده‌ایم که شما را به یک سفر مذاقی عمیق در دنیای گریل ایرانی ببریم.</p>
+                            <a id="font" href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">رزرو کنید</a>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+                            <img class="img-fluid" src="img/hero.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Service Start -->
+        <div id="dir" class="container-xxl py-5">
+            <div id="dir"  class="container">
+                <div id="dir"  class="row g-4">
+                    <div id="dir"  class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div id="dir"  class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i dir="rtl" class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                                <h5 dir="rtl">سرآشپز بین المللی</h5>
+                                <p >با تجربه ترین سر آشپز ها با یهترین مواد اولیه</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                                <h5>غذای با کیفیت</h5>
+                                <p>تازه ترین وبهترین مواد اولیه را با ما تجربه کنید</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                                <h5>سفارش انلاین</h5>
+                                <p>ارسال سریع و گرم در کمترین زمان</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                                <h5>تضمین کیفیت</h5>
+                                <p>در صورت نارضایتی سفارش شما با احترام تعویض میشود</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/about-1.jpg">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/about-2.jpg" style="margin-top: 25%;">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpg">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/about-4.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        
+                        <h5 id="font-asl">درباره ما
+                           
+                            <a href="about.html">  <span  class="material-symbols-outlined">
+                                info
+                                </span>
+                            </a>
+                        </h5>
+                        <h1 dir="rtl" class="mb-4"> خوش امدید  <i class="fa fa-utensils text-primary me-2"></i>به گوزن </h1>
+                        <p class="mb-4">رستوران گوزن با سی سال سابقه در رشته گریل اماده است تا بذیرا شما باشد تا با بهترین مواد اولیه و تازه ترین انها طعمی خوش را برای شما تولید کند</p>
+                        <p class="mb-4">سراشبز های مجموعه هر روز میکشوند تا سطح کیفی مجموعه را ارتقا داده ولحظات خوشی را برای شما تولید کنند و رضایت شما را کسب کنند و طعم غذا ایرانی و فرنگی واقعی را به شما منتقل کنند</p>
+                        <div class="row g-4 mb-4">
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">15</h1>
+                                    <div class="ps-4">
+                                        <p id="dir" class="mb-0">سال</p>
+                                        <h6 id="dirfo" class="text-uppercase mb-6"> تجربه موفق</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">50</h1>
+                                    <div class="ps-4">
+                                        <p class="mb-0">دارای</p>
+                                        <h6 id="dirfo1"  class="text-uppercase mb-0">  مدرک جهانی</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a id="font" class="btn btn-primary py-3 px-5 mt-2" href="">بیشتر بدانید</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Menu Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5  id="font-asl" class="section-title ff-secondary text-center text-primary fw-normal">منو مون</h5>
+                    <h1 class="mb-5"></h1>
+                </div>
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small id="font-asl" class="text-body">غذا های</small>
+                                    <h6  class="mt-n1 mb-0">  اصلی</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li style="padding-left: 5px;"  class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                                <i class="fa fa-hamburger fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small id="font-asl"  class="text-body"> منو</small>
+                                    <h6 class="mt-n1 mb-0">پیش غذا</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li style="padding-right: 2px; margin-right: 19px;" class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                                <i class="fa fa-cookie-bite fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small id="font-asl" class="text-body">نوشیدنی</small>
+                                    <h6  class="mt-n1 mb-0"> دسر  </h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li  class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <i class="fa fa-2x fa-cart-plus text-primary text-primary"></i>
+                                <div class="ps-3">
+                                    <small id="font-asl" class="text-body">سبد</small>
+                                    <h6 id="bigcattegore" class="mt-n1 mb-0">خرید</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="product">
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div id="dir" class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px; ;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span id="menu_ghab" >جوجه کباب</span>
+                                                
+                                                <button id="decrease"><span class="material-symbols-outlined">
+                                                    do_not_disturb_on
+                                                    </span></button>
+                                                 <span style="margin-right: 10px;"  id="quantity">1</span>
+                                                <button style="margin-right: 12px;" id="increase"><span class="material-symbols-outlined">
+                                                    add_circle
+                                                    </span>
+                                                    </span></button>
+                                                <span  id="priceofmenu" class="text-primary">90,000</span>
+                                                <button style="padding-left: 10px;" class="btn-basket" id="addToCart"><span class="material-symbols-outlined">
+                                                    add_shopping_cart
+                                                    </span></button>
+                                            </h5>
+                                            <small id="menu_ghab" dir="rtl" class="fst-italic">تکه‌هایی از گوشت مرغ یا جوجه که با مریناد زردچوبه، نمک، فلفل، لیمو، روغن زیتون و پاپریکا ترکیب می‌شوند</small>
+                                            
+                                        </div>                                 
+                                    </div>
+                                </div>
+
+
+
+
+
+                                <div dir="rtl" class="col-lg-6">
+                                    <div dir="rtl" class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span id="menu_ghab" >کوبیده کباب</span>
+                                                
+                                                <button id="product2Decrease"><span class="material-symbols-outlined">
+                                                    do_not_disturb_on
+                                                    </span></button>
+                                                 <span id="product2Quantity">1</span>
+                                                <button id="product2Increase"><span class="material-symbols-outlined">
+                                                    add_circle
+                                                    </span>
+                                                    </span></button>
+                                                <span id="priceofmenu" class="text-primary">160,000</span>
+                                                <button class="btn-basket" id="addToCartProduct2"><span class="material-symbols-outlined">
+                                                    add_shopping_cart
+                                                    </span></button>
+                                            </h5>
+                                            <small id="menu_ghab" dir="rtl" class="fst-italic">گوشت چرخ‌کرده (به عنوان مثال، گوشت گوسفند یا گوساله)، پیاز رنده‌شده، زردچوبه، نمک، فلفل، و گاهی اوقیانوس تره.</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+
+
+                                <div dir="rtl" class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span id="menu_ghab" > کباب برگ </span>
+                                                
+                                                <button id="product3Decrease"><span class="material-symbols-outlined">
+                                                    do_not_disturb_on
+                                                    </span></button>
+                                                 <span id="product3Quantity">1</span>
+                                                <button id="product3Increase"><span class="material-symbols-outlined">
+                                                    add_circle
+                                                    </span>
+                                                    </span></button>
+                                                <span id="priceofmenu" class="text-primary">180,000t</span>
+                                                <button class="btn-basket" id="addToCartProduct3"><span class="material-symbols-outlined">
+                                                    add_shopping_cart
+                                                    </span></button>
+                                            </h5>
+                                            <small id="menu_ghab" dir="rtl" class="fst-italic">برگ‌های تازه گردو (برگ تنباکو)، گوشت چرخ‌کرده (معمولاً گوسفند یا گوساله)، پیاز رنده‌شده، نمک، فلفل، زردچوبه و لیمو.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+                                <div dir="rtl" class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span id="menu_ghab" > ماهی کباب </span>
+                                                
+                                                <button id="product4Decrease"><span class="material-symbols-outlined">
+                                                    do_not_disturb_on
+                                                    </span></button>
+                                                 <span id="product4Quantity">1</span>
+                                                <button id="product4Increase"><span class="material-symbols-outlined">
+                                                    add_circle
+                                                    </span>
+                                                    </span></button>
+                                                <span id="priceofmenu" class="text-primary">280,000t</span>
+                                                <button class="btn-basket" id="addToCartProduct4"><span class="material-symbols-outlined">
+                                                    add_shopping_cart
+                                                    </span></button>
+                                            </h5>
+                                            <small id="menu_ghab" dir="rtl" class="fst-italic">تکه‌های ماهی (مثلاً سالمون یا تن ماهی)، مرینادی از زردچوبه، نمک، فلفل، روغن زیتون و لیمو.</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div dir="rtl" class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span id="menu_ghab" > کباب چنجه </span>
+                                                
+                                                <button id="product5Decrease"><span class="material-symbols-outlined">
+                                                    do_not_disturb_on
+                                                    </span></button>
+                                                 <span id="product5Quantity">1</span>
+                                                <button id="product5Increase"><span class="material-symbols-outlined">
+                                                    add_circle
+                                                    </span>
+                                                    </span></button>
+                                                <span id="priceofmenu" class="text-primary">320,000t</span>
+                                                <button class="btn-basket" id="addToCartProduct5"><span class="material-symbols-outlined">
+                                                    add_shopping_cart
+                                                    </span></button>
+                                            </h5>
+                                            <small id="menu_ghab" dir="rtl" class="fst-italic">تکه‌های گوشت (معمولاً گوسفند یا گوساله) که با مرینادهای خاص تهیه می‌شوند و روی میخ‌های چنجه انداخته می‌شوند.</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div dir="rtl" class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span id="menu_ghab" > کباب لبنانی </span>
+                                                
+                                                <button id="product7Decrease"><span class="material-symbols-outlined">
+                                                    do_not_disturb_on
+                                                    </span></button>
+                                                 <span id="product7Quantity">1</span>
+                                                <button id="product7Increase"><span class="material-symbols-outlined">
+                                                    add_circle
+                                                    </span>
+                                                    </span></button>
+                                                <span id="priceofmenu" class="text-primary">190,000t</span>
+                                                <button class="btn-basket" id="addToCartProduct7"><span class="material-symbols-outlined">
+                                                    add_shopping_cart
+                                                    </span></button>
+                                            </h5>
+                                            <small id="menu_ghab" dir="rtl" class="fst-italic">تکه‌های گوشت چرخ‌کرده (معمولاً گوسفند) با مرینادهای خاص شامل پاپریکا، زعفران، زردچوبه و نمک.</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div dir="rtl" class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span id="menu_ghab" > سوژوک  </span>
+                                                
+                                                <button id="product6Decrease"><span class="material-symbols-outlined">
+                                                    do_not_disturb_on
+                                                    </span></button>
+                                                 <span id="product6Quantity">1</span>
+                                                <button id="product6Increase"><span class="material-symbols-outlined">
+                                                    add_circle
+                                                    </span>
+                                                    </span></button>
+                                                <span id="priceofmenu" class="text-primary">360,000t</span>
+                                                <button class="btn-basket" id="addToCartProduct6"><span class="material-symbols-outlined">
+                                                    add_shopping_cart
+                                                    </span></button>
+                                            </h5>
+                                            <small id="menu_ghab" dir="rtl" class="fst-italic">گوشت چرخ‌کرده (معمولاً گوشت گوساله) با مرینادهای خاص یونانی شامل رزماری، زعفران، نمک و فلفل. </small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div dir="rtl" class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span id="menu_ghab" > ساته  </span>
+                                                
+                                                <button id="product8Decrease"><span class="material-symbols-outlined">
+                                                    do_not_disturb_on
+                                                    </span></button>
+                                                 <span id="product8Quantity">1</span>
+                                                <button id="product8Increase"><span class="material-symbols-outlined">
+                                                    add_circle
+                                                    </span>
+                                                    </span></button>
+                                                <span id="priceofmenu" class="text-primary">185,000t</span>
+                                                <button class="btn-basket" id="addToCartProduct8"><span class="material-symbols-outlined">
+                                                    add_shopping_cart
+                                                    </span></button>
+                                            </h5>
+                                            <small id="menu_ghab" dir="rtl" class="fst-italic">که‌های گوشت مرغ، گوشت گوسفند یا میگو با مرینادهای مخصوص معمولاً ترکیبی از روغن زیتون، سس‌های مختلف و ادویه‌ها.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div dir="rtl" class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span id="menu_ghab" >برگر مرغ </span>
+                                                
+                                                <button id="product9Decrease"><span class="material-symbols-outlined">
+                                                    do_not_disturb_on
+                                                    </span></button>
+                                                 <span id="product9Quantity">1</span>
+                                                <button id="product9Increase"><span class="material-symbols-outlined">
+                                                    add_circle
+                                                    </span>
+                                                    </span></button>
+                                                <span id="priceofmenu" class="text-primary">90,000t</span>
+                                                <button class="btn-basket" id="addToCartProduct9"><span class="material-symbols-outlined">
+                                                    add_shopping_cart
+                                                    </span></button>
+                                            </h5>
+                                            <small id="menu_ghab" dir="rtl" class="fst-italic">نان,برگر200گرمی,کاهو,گوجه,خیارشور,سس مخصوص</small>>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart"></div>
+                        <div id="tab-3" class=" tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div style="max-width: 100%;" class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        
+                                            
+                                            <table style="padding-left: 50% ;">
+                                                <thead>
+                                                    <tr style="border: 1px goldenrod solid;width: 100%;align-content: center;align-items: center;margin-left: 50%;">
+                                                        <th class="prudect">محصول</th>
+                                                        <th>تعداد</th>
+                                                        <th>قیمت واحد (تومان)</th>
+                                                        <th>مجموع (تومان)</th>
+                                                        <th> درخواست</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody style="padding: 50%;" id="cartTable">
+                                                    <!-- محصولات انتخاب شده در اینجا قرار می‌گیرند -->
+                                                </tbody>
+                                            </table>
+                                          
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <p  id="totalPrice">قیمت نهایی: 0 تومان</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu End -->
+
+
+        <!-- Reservation Start -->
+        <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <div class="video">
+                        <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/watch?v=9gg_jjUb-S4" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 bg-dark d-flex align-items-center">
+                    <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
+                        <h5 id="font-asl" class="section-title ff-secondary text-start text- -">رزروش کن</h5>
+                        <h1 id="font1"  class="text-white mb-4">رزرو انلاین میز </h1>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                        <label  id="font1" for="name"> نام و نام خانوادگی</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                        <label id="font1" for="email"> ایمیل </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating date" id="date3" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" />
+                                        <label id="font1" for="datetime">تاریخ و زمان</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <select id="font1" class="form-select" id="select1">
+                                          <option id="font1" value="1">نفر 1</option>
+                                          <option id="font1" value="2">نفر 2</option>
+                                          <option id="font1" value="3">نفر 3</option>
+                                          <option id="font1" value="3">نفر +4</option>
+                                        </select>
+                                        <label id="font1" for="select1">تعداد </label>
+                                      </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Special Request" id="message" style="height: 100px"></textarea>
+                                        <label id="font1" for="message"> اگر چیزی میخواهید بنویسید </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button id="font1" class="btn btn-primary w-100 py-3" type="submit"> رزرو کردن</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">تیزر مجموعه</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="img/berger.mp4" id="video" allowfullscreen allowscriptaccess="always"
+                                allow="autoplay"></iframe>
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Reservation Start -->
+
+
+        <!-- Team Start -->
+        <div class="container-xxl pt-5 pb-3">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5  id="font-asl" class="section-title ff-secondary text-center text-primary fw-normal">تیم ما</h5>
+                    <h1 id="font1" class="mb-5">سرآشپز های ما</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/team-1.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">رضا علیم</h5>
+                            <small id="font1">سرآشپز</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/team-2.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">  علی رضایت</h5>
+                            <small id="font1"> سرآشپز</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/team-3.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0"> مهدی طام </h5>
+                            <small id="font1">سرآشپز</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/team-4.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">مهدی رضابخش</h5>
+                            <small id="font1">سرآشپز</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="text-center">
+                    <h5 id="font-asl" class="section-title ff-secondary text-center text-primary fw-normal"> تجربیات شما</h5>
+                    <h1 class="mb-5">مهمانان از  ما اینگونه میگویند</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>عالی بود امیدوارم کیفیت خود را حفظ کرده و همیشه موفق باشید</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">علی رضایی</h5>
+                                <small id="font1">معلم</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>عالی بود امیدوارم کیفیت خود را حفظ کرده و همیشه موفق باشید</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1"> علی رضایی</h5>
+                                <small id="font1">معلم</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>عالی بود امیدوارم کیفیت خود را حفظ کرده و همیشه موفق باشید</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1"> علی رضایی</h5>
+                                <small id="font1">معلم</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>عالی بود امیدوارم کیفیت خود را حفظ کرده و همیشه موفق باشید</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">علی رضایی</h5>
+                                <small id="font1"> معلم</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 dir="rtl" id="font-asl" class="section-title ff-secondary text-start text-primary fw-normal mb-4">گوزن</h4>
+                        <a id="font1" class="btn btn-link" href="">در مورد ما</a>
+                        <a id="font1" class="btn btn-link" href="">ارتباط با ما</a>
+                        <a id="font1" class="btn btn-link" href="">رزرو کردن</a>
+                        <a id="font1" class="btn btn-link" href=""> قوانین </a>
+                        <a id="font1" class="btn btn-link" href=""> راه های ارتباطی </a>
+                        <div id="google_translate_element"></div>
+                    
+                    </div>
+                    <div  class="col-lg-3 col-md-6">
+                        <h4 dir="rtl" id="font-asl" class="section-title ff-secondary text-start text-primary fw-normal mb-4"> ارتباط با ما</h4>
+                        <p style="padding: 3px;" class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>تهران خیابان فردوسی</p>
+                        <p dir="rtl" class="mb-2"><i class="fa fa-phone-alt me-3"></i>9109 588 0919 +</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>gavazngril@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 id="font-asl" class="section-title ff-secondary text-start text-primary fw-normal mb-4"> ساعت کاری</h4>
+                        <h5 class="text-light fw-normal">شنبه - چهارشنبه</h5>
+                        <p> از ساعت11 الی 24</p>
+                        <h5  class="text-light fw-normal"> اخر هفته</h5>
+                        <p >از ساعت 11 الی  2</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 id="font-asl" class="section-title ff-secondary text-start text-primary fw-normal mb-4">اخرین اخبار</h4>
+                        <p> برای اطلاع از اخرین اخبار رستوران گورن ایمیل خود را وارد کنید</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input id="font1" class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder=" ایمیل ">
+                            <button id="font1" type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"> عضو شوید</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div dir="rtl" id="font1" class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a dir="rtl" class="border-bottom" href="#">تمامی حقوق این سایت </a>, مربوط به رستوزان گوزن میباشد. 
+							<br> </br>
+							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+						   <a  dir="rtl"   class="border-bottom eliyshmaz" href="#"> designing by eliyshmaz</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a id="font1" href="">خانه</a>
+                                <a id="font1" href="">امنیت</a>
+                                <a id="font1" href="">راهنما</a>
+                                <a id="font1" href="">قوانین</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/sabad.js"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+        </script>
+        
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
+</body>
+
+</html>

@@ -1,0 +1,386 @@
+h1{
+font-family: 'Lalezar', cursive; ;
+}
+h5{
+    font-family: 'Lalezar', cursive; 
+    color:goldenrod;
+}
+
+p{
+font-family: 'Lalezar', cursive; ;
+direction: rtl;
+}
+
+.img-deer{
+font-size: 70px;
+color: yellow;
+}
+
+#font{
+font-family: 'Lalezar', cursive; 
+font-size: 29px;
+}
+#font1{
+    font-family: 'Lalezar', cursive; }
+  
+#nabar{direction: rtl;
+    font-family: 'Lalezar', cursive; 
+}
+#yellow-name{
+   color: goldenrod;
+
+}
+#font-asl{
+    font-family: 'Marhey', cursive;
+    direction: rtl;
+}
+#dir{
+    direction: rtl;
+}
+#dirfo{
+    font-family: 'Lalezar', cursive; ;
+    direction: rtl;
+    font-size: 25px;
+}
+h6{
+    font-family: 'Lalezar', cursive; ;
+    }
+#dirfo1{
+    font-size: 24px;
+    direction: rtl;  
+     
+   
+}
+#menu_ghab{
+    direction: rtl;
+    margin-top: 8px;
+    
+    
+}
+#priceofmenu{
+    margin-top: 14px;
+    margin-right: 20px;
+    
+}
+#increase{
+    width: 30px;
+    font-size: 9px;
+    ; height: 33px;
+    text-align: right;
+    border: 1px;
+    color:goldenrod;
+    margin-top: 12px;
+ margin-right: 12px;
+ margin-right: 12px
+ 
+}
+#decrease{
+    width: 30px;
+    height: 33px;
+     font-size: 9px;
+      margin-top: 12px;
+      margin-right: 5px;
+      border: 0px;
+      color: goldenrod
+}
+#quantity{
+    margin-right: 10px;
+    margin-top: 16px;
+     font-size: 18px
+    
+}
+.btn-basket{
+    width: 30px;
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+ 
+    max-width: 60px;
+    border: 0px;
+    color: goldenrod;
+    margin-left: 15px;
+    margin-top: 8px;
+
+}
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: goldenrod ;
+    font-family: 'Lalezar', cursive;
+}
+
+#totalPrice {
+    font-weight: bold;
+}
+
+#product2Decrease{
+    width: 30px;
+    height: 33px;
+     font-size: 9px;
+      margin-top: 12px;
+      margin-right: 5px;
+      border: 0px;
+      color: goldenrod
+
+}
+#product2Quantity{
+    margin-right: 10px;
+    margin-top: 16px;
+     font-size: 18px
+}
+#product2Increase{ 
+     width: 30px;
+    font-size: 9px;
+    ; height: 33px;
+    text-align: right;
+    border: 1px;
+    color:goldenrod;
+    margin-top: 12px;
+ margin-right: 12px;
+ margin-right: 12px
+
+}
+#product3Increase {
+    width: 30px;
+    font-size: 9px;
+    ; height: 33px;
+    text-align: right;
+    border: 1px;
+    color:goldenrod;
+    margin-top: 12px;
+ margin-right: 12px;
+ margin-right: 12px
+    
+}
+#product4Increase {
+    width: 30px;
+    font-size: 9px;
+    ; height: 33px;
+    text-align: right;
+    border: 1px;
+    color:goldenrod;
+    margin-top: 12px;
+ margin-right: 12px;
+ margin-right: 12px
+}
+#product5Increase {
+    width: 30px;
+    font-size: 9px;
+    ; height: 33px;
+    text-align: right;
+    border: 1px;
+    color:goldenrod;
+    margin-top: 12px;
+ margin-right: 12px;
+ margin-right: 12px
+}
+#product6Increase {
+    width: 30px;
+    font-size: 9px;
+    ; height: 33px;
+    text-align: right;
+    border: 1px;
+    color:goldenrod;
+    margin-top: 12px;
+ margin-right: 12px;
+ margin-right: 12px
+}
+#product7Increase {
+    width: 30px;
+    font-size: 9px;
+    ; height: 33px;
+    text-align: right;
+    border: 1px;
+    color:goldenrod;
+    margin-top: 12px;
+ margin-right: 12px;
+ margin-right: 12px
+}
+#product8Increase {
+    width: 30px;
+    font-size: 9px;
+    ; height: 33px;
+    text-align: right;
+    border: 1px;
+    color:goldenrod;
+    margin-top: 12px;
+ margin-right: 12px;
+ margin-right: 12px
+}
+#product9Increase {
+    width: 30px;
+    font-size: 9px;
+    ; height: 33px;
+    text-align: right;
+    border: 1px;
+    color:goldenrod;
+    margin-top: 12px;
+ margin-right: 12px;
+ margin-right: 12px
+}
+ #product3Quantity {
+    margin-right: 10px;
+    margin-top: 16px;
+     font-size: 18px
+}
+#product4Quantity {
+    margin-right: 10px;
+    margin-top: 16px;
+     font-size: 18px
+} #product5Quantity {
+    margin-right: 10px;
+    margin-top: 16px;
+     font-size: 18px
+} #product6Quantity {
+    margin-right: 10px;
+    margin-top: 16px;
+     font-size: 18px
+} #product7Quantity {
+    margin-right: 10px;
+    margin-top: 16px;
+     font-size: 18px
+} #product8Quantity {
+    margin-right: 10px;
+    margin-top: 16px;
+     font-size: 18px
+} #product9Quantity {
+    margin-right: 10px;
+    margin-top: 16px;
+     font-size: 18px
+} 
+#product2Decrease{
+    width: 30px;
+    height: 33px;
+     font-size: 9px;
+      margin-top: 12px;
+      margin-right: 5px;
+      border: 0px;
+      color: goldenrod
+
+}#product3Decrease{
+    width: 30px;
+    height: 33px;
+     font-size: 9px;
+      margin-top: 12px;
+      margin-right: 5px;
+      border: 0px;
+      color: goldenrod
+
+}#product4Decrease{
+    width: 30px;
+    height: 33px;
+     font-size: 9px;
+      margin-top: 12px;
+      margin-right: 5px;
+      border: 0px;
+      color: goldenrod
+
+}#product5Decrease{
+    width: 30px;
+    height: 33px;
+     font-size: 9px;
+      margin-top: 12px;
+      margin-right: 5px;
+      border: 0px;
+      color: goldenrod
+
+}#product6Decrease{
+    width: 30px;
+    height: 33px;
+     font-size: 9px;
+      margin-top: 12px;
+      margin-right: 5px;
+      border: 0px;
+      color: goldenrod
+
+}#product7Decrease{
+    width: 30px;
+    height: 33px;
+     font-size: 9px;
+      margin-top: 12px;
+      margin-right: 5px;
+      border: 0px;
+      color: goldenrod
+
+}#product8Decrease{
+    width: 30px;
+    height: 33px;
+     font-size: 9px;
+      margin-top: 12px;
+      margin-right: 5px;
+      border: 0px;
+      color: goldenrod
+
+}
+#product9Decrease{
+    width: 30px;
+    height: 33px;
+     font-size: 9px;
+      margin-top: 12px;
+      margin-right: 5px;
+      border: 0px;
+      color: goldenrod
+
+}
+.prudect{
+    color: goldenrod ;
+    font-family: 'Lalezar', cursive;
+}
+#himi{
+    color: rgb(231, 29, 29);
+    border-radius: 8px;
+border: solid 4px rgb(255, 0, 0);
+font-family: 'Lalezar', cursive;
+}
+#priceoff{
+    color: black;
+    font-family: 'Lalezar', cursive;
+    font-size: 17px;
+}
+#priceoff1{
+    color: black;
+    font-family: 'Lalezar', cursive;
+    font-size: 17px;
+}
+
+.pluss{
+    color: goldenrod;
+    box-sizing: content-box;
+    border: 0px solid;
+  
+   
+}
+.decre{
+    color: goldenrod;
+    box-sizing: content-box;
+    border: 0px solid;
+  
+
+}
+.cunstoff{
+    color: black;
+    font-family: 'Lalezar', cursive;
+    font-size: 23px;
+}
+#nameinfacture{
+    font-family: 'Lalezar', cursive;
+    color: black;
+}
+#smallcattegore{
+    font-family: 'Lalezar', cursive;
+    direction: rtl;
+}
+#bigcattegore{
+    font-family: 'Lalezar', cursive;
+    direction: rtl;
+ ;
+}
+.eliyshmaz{
+    font-family: 'Caveat', cursive;
+    color: goldenrod;
+}
